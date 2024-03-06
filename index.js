@@ -15,7 +15,7 @@ inputBtn.addEventListener("click", function() {
 })
 
 function renderLeads() {
-  let listItems = "" // Fix variable name
+  let listItems = "" 
   for (let i = 0; i < myLeads.length; i++) {
     listItems += `
     <li>
@@ -25,5 +25,5 @@ function renderLeads() {
     </li>
   `
   }
-  ulEl.innerHTML = listItems // Fix assignment
+  ulEl.innerHTML = listItems
 }
